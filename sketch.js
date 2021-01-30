@@ -33,7 +33,7 @@ mapa = loadImage("gotowa_kopalnia45.png")
 button1 = loadImage("Files/button1.png");
 button2 = loadImage("Files/button2.png");
 button3 = loadImage("Files/button3.png");
-load_file = loadJSON("ores.json");
+//load_file = loadJSON("ores.json");
 buttons_style = [button1,button2,button3]
 
 }
