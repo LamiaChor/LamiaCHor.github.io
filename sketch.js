@@ -158,14 +158,14 @@ saveJSON(save_json, 'ores.json')
 
 }
 
-function load_ore_map(){
-  for (let i = 0; i < load_file["arrey"].length; i++){
-    cells.push(new Cell({x:load_file["arrey"][i].absolute_position.x,
-                         y:load_file["arrey"][i].absolute_position.y,
-                         gx:load_file["arrey"][i].game_position.x,
-                         gy:load_file["arrey"][i].game_position.y,
-                         metal_type: load_file["arrey"][i].metal_type,
-                         abs_x: load_file["arrey"][i].absolute_position.x,
-                         abs_y: load_file["arrey"][i].absolute_position.y
-                       }))}
-}
+// function load_ore_map(){
+//   for (let i = 0; i < load_file["arrey"].length; i++){
+//     cells.push(new Cell({x:load_file["arrey"][i].absolute_position.x,
+//                          y:load_file["arrey"][i].absolute_position.y,
+//                          gx:load_file["arrey"][i].game_position.x,
+//                          gy:load_file["arrey"][i].game_position.y,
+//                          metal_type: load_file["arrey"][i].metal_type,
+//                          abs_x: load_file["arrey"][i].absolute_position.x,
+//                          abs_y: load_file["arrey"][i].absolute_position.y
+//                        }))}
+// }
