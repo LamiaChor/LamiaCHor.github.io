@@ -44,10 +44,10 @@ sceen.style('display', 'block');
 
  meter = new FPSMeter();
  boxF = new Function_box();
- // for (let y = 0; y < 66; y++){
- //    for (let x = 0; x <33; x++){
- // cells.push(new Cell({x:x*44+27,y:y*44,gx:x,gy:y,abs_x:x*44+27,abs_y:y*44}))}}
-load_ore_map();
+ for (let y = 0; y < 66; y++){
+    for (let x = 0; x <33; x++){
+ cells.push(new Cell({x:x*44+27,y:y*44,gx:x,gy:y,abs_x:x*44+27,abs_y:y*44}))}}
+//load_ore_map();
 
 cells[40].metal_type = "Veryt"
 }
